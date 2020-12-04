@@ -2195,7 +2195,7 @@ export namespace key {
 
     interface KeyResult {
         keys: Array<Key>;
-        err: Array<Error> | null;
+        err: Array<Error> | undefined;
     }
 
     /**
